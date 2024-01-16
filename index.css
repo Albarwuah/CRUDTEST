@@ -1,0 +1,151 @@
+
+
+body{
+    margin-left: 20%;
+    background: repeating-linear-gradient(to right, pink 0%,pink 50%, turquoise 100%)
+}
+
+
+
+.container{
+   position:relative;
+   border-style:none;
+   justify-content: left;
+   border-radius: 90dvb;
+   height: 700px;
+   width: 400px;
+   background-image: url(boy.jpeg);
+   opacity: 70%;
+   background-attachment: fixed;
+   background-repeat: repeat;
+}
+
+
+
+h1{
+    animation-duration: 0s;
+    animation-name: slidein;
+    color:rgb(155, 81, 141);
+    padding: 20%;
+    animation-iteration-count: 1;
+  
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 10%;
+    }
+  
+    to {
+      margin-left: auto;
+      width: 10%;
+    text-overflow:unset;
+    background-color: rgb(199, 235, 235);
+    text-align:right;
+    color:rgb(155, 81, 141);
+    border-radius: 50%;
+    border-right-style:hidden;
+    border-bottom-style:hidden;
+    padding: 30%;
+   
+  }
+  }
+
+#time ,#location , #theme{
+background-color: rgb(188, 234, 188);
+border-color: aliceblue;
+text-decoration-color: blueviolet;
+text-transform:calc(78%);
+}
+
+
+#submitbtn{
+
+ background-color: antiquewhite;
+ border-color: rgb(50, 162, 174);
+ color: rgb(155, 81, 141);
+}
+
+label{
+    color:rgb(155, 81, 141);
+    text-shadow: 2px 2px 8px;
+}
+ 
+
+label:hover, cursor{
+    color: rgb(50, 162, 174);
+}
+
+#theme{
+    width: 250px; 
+    height: 70px;
+}
+
+#tet
+{
+  
+  height: 36lvw;
+  width: 47lvw;
+  border-style: hidden;
+  
+  background-attachment: fixed;
+ 
+  background-image: url(gir.jpeg);
+  background-repeat:repeat;
+  border-radius: 150dvb;
+  float:right;
+  padding-top: 25%;
+  text-align: center;
+
+}
+
+
+#tet{
+  display:grid;
+  padding: 3%;
+  background-color: rgb(0, 0, 0);
+ 
+  border: none;
+  border-style: outset;
+ 
+ 
+  
+}
+
+#th:hover{
+  background-color: yellow;
+  cursor: pointer;
+
+}
+
+#ti:hover{
+  background-color: yellow;
+  cursor: pointer;
+
+}
+
+
+#da:hover{
+  background-color: yellow;
+  cursor: pointer;
+
+}
+
+
+#lo:hover{
+  background-color: yellow;
+  cursor: pointer;
+
+}
+
+.NewDiv{
+  background-color:rgb(100, 232, 17);
+  opacity: 1000%;
+}
